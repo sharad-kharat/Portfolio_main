@@ -1,0 +1,43 @@
+/* Tablets */
+@media (max-width: 991px) {
+  .hero-name {
+    font-size: 2.5rem;
+  }
+
+  .hero-role {
+    font-size: 1.3rem;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 576px) {
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .hero-name {
+    font-size: 2rem;
+  }
+
+  .hero-role {
+    font-size: 1.1rem;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+  }
+
+  .hero-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

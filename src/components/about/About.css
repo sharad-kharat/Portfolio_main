@@ -1,0 +1,176 @@
+/* About Section */
+.about {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 20px; /* vertical 50px, horizontal 20px */
+  background: linear-gradient(135deg, #0f172a, #0f172a, #0f172a);  
+  text-align: center;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  background-color: #060c1a;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-title {
+  padding-top: 20px;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  background: linear-gradient(90deg, #6494cf, #a466df, #38bdf8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #eef5ff;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+/* What I Do Section */
+.what-i-do {
+  margin-bottom: 40px;
+}
+
+.what-i-do h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #8dcfda;
+  text-align: left;
+}
+
+.what-i-do ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.what-i-do li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  color: #e2e8f0;
+  margin-bottom: 12px;
+}
+
+.what-i-do li .icon {
+  color: #75a0c9;
+  font-size: 1.2rem;
+  background: linear-gradient(360deg, #448ae0, #160a20, #142831);
+  border-radius: 50%;
+  padding: 2px; /* small padding inside icon circle */
+}
+
+/* Education Section */
+.education {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px ;
+  background-color: #151f2c;
+  padding: 20px 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.education-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #6494cf, #a466df, #38bdf8);
+  /* display: flex; */
+  justify-content: center;
+  border-radius: 30px;
+  padding: 5px 0;
+  width: 30%;
+  text-align: center;
+}
+
+.edu-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #e2e8f0;
+}
+
+.edu-box .icon {
+  color: #38bdf8;
+  font-size: 2rem;
+}
+
+.percentage {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: aqua;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .about-title {
+    font-size: 2.5rem;
+  }
+  .about-description {
+    font-size: 1.1rem;
+  }
+  .what-i-do h3 {
+    font-size: 1.7rem;
+  }
+  .what-i-do li, .edu-box, .percentage {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+  .what-i-do h3 {
+    font-size: 1.5rem;
+  }
+  .what-i-do li {
+    font-size: 0.95rem;
+  }
+  .education {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 1.8rem;
+  }
+  .about-description {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+  .what-i-do h3 {
+    font-size: 1.3rem;
+  }
+  .what-i-do li, .edu-box, .percentage {
+    font-size: 0.9rem;
+  }
+}

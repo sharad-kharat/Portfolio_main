@@ -1,0 +1,78 @@
+.tech-stack-section {
+  background: #0c0e14;
+  padding: 40px 0;
+  min-height: 100vh;
+}
+
+.tech-stack-title {
+  color: #85e2ee;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 36px;
+  font-weight: 500;
+}
+
+.tech-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tech-card {
+  background: #13151f;
+  border-radius: 20px;
+  box-shadow: 0px 8px 24px rgba(0,0,0,0.26);
+  padding: 36px 18px 20px 18px;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.tech-card:hover {
+  transform: translateY(-6px) scale(1.03);
+}
+
+.tech-card-bar {
+  height: 10px;
+  border-radius: 6px 6px 0 0;
+  width: 84%;
+  position: absolute;
+  top: 15px;
+  left: 8%;
+}
+
+.tech-card-title {
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.tech-card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-card-list li {
+  background: #23263a;
+  color: #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 8px 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .tech-stack-title {
+    font-size: 1.8rem;
+  }
+  .tech-card {
+    padding: 24px 8px 14px 8px;
+  }
+}

@@ -1,0 +1,108 @@
+.projects-experience-section {
+  padding: 40px 20;
+  background: #191e2b;
+  min-height: 100vh;
+}
+
+.projects-experience-title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 36px;
+  font-size: 2.2rem;
+  font-weight: 600;
+ padding-top: 30px;
+ color: #9070b6;
+}
+
+.projects-experience-list {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+}
+
+.project-card {
+  background: #13151f;
+  border-radius: 16px;
+  box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+  padding: 28px 22px 20px 22px;
+  color: #ddd;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.03) translateY(-4px);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  margin-bottom: 16px;
+}
+
+.project-features ul {
+  list-style: disc inside;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 24px;
+  font-size: 1rem;
+  color: #bbb;
+  margin: 10px 0 18px 0;
+  padding: 0;
+}
+
+.project-technologies {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.97rem;
+}
+
+.tech-pill {
+  background: #23263a;
+  color: #98ddf9;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin: 0 5px;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+  .projects-experience-list {
+    grid-template-columns: 1fr;
+    padding: 0 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-experience-title {
+    font-size: 1.4rem;
+  }
+
+  .project-card {
+    padding: 14px 6px 12px 6px;
+    font-size: 0.97rem;
+  }
+
+  .project-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    font-size: 1rem;
+  }
+
+  .project-features ul {
+    grid-template-columns: 1fr;
+    font-size: 0.95rem;
+  }
+}

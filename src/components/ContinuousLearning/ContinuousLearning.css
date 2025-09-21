@@ -1,0 +1,57 @@
+.continuous-learning-section {
+  background-color:  #191e2b;;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  min-height: 150px;
+}
+
+.continuous-learning-container {
+  max-width: 800px;
+  text-align: center;
+  color: #fff;
+  background-color: #0d1016;
+  border-radius: 30px;
+    padding: 30px 20px;
+}
+
+.continuous-learning-text {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.skill-pill {
+  background-color: #23263a;
+  color: #98ddf9;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+}
+
+.skill-pill:hover {
+  background-color: #0d6efd; /* Bootstrap primary blue for hover */
+  color: #fff;
+}
+
+/* Responsive styling for smaller devices */
+@media (max-width: 600px) {
+  .continuous-learning-text {
+    font-size: 1rem;
+  }
+  .skill-pill {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}

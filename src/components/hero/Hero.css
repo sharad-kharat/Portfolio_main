@@ -1,0 +1,125 @@
+.hero {
+   width: 100%;
+  min-height: 100vh;
+  padding: 30px 10px;
+  background: linear-gradient(135deg, #0d0d0d, #0f172a, #1e293b);
+  text-align: center;
+  color: #fff;
+  ;
+  
+
+}
+
+.hero-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero-icon {
+  font-size: 2rem;
+  color: #a855f7; /* purple accent */
+  margin-bottom: 2px;
+}
+
+.hero-name {
+  font-size: 5rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #6494cf, #a466df, #38bdf8);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-role {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #8dcfda;
+  margin: 10px 0 20px;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  color: #eef5ff;
+  /* max-width: 700px; */
+  margin: 0 auto 30px;
+  line-height: 2;
+}
+
+.hero-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.hero-info span {
+  background: #1e293b;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  color: #e2e8f0;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+/* LinkedIn */
+.hero-btn.linkedin {
+  background: linear-gradient(90deg, #9333ea, #6366f1);
+  color: #fff;
+ 
+
+}
+.hero-btn.linkedin:hover {
+  opacity: 0.9;
+}
+
+/* GitHub */
+.hero-btn.github {
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  color: #fff;
+}
+.hero-btn.github:hover {
+  opacity: 0.9;
+}
+
+/* Contact */
+.hero-btn.contact {
+  background: linear-gradient(90deg, #3b82f6, #06b6d4);
+  color: #fff;
+}
+.hero-btn.contact:hover {
+  opacity: 0.9;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #1e293b;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  color: #e2e8f0
+}
+
+
+.info-box .icon {
+  color: rgb(96, 165, 250); /* This is a blue shade */
+  font-size: 1.5rem;
+}
