@@ -69,7 +69,7 @@ function App() {
           <TechStack />
           <ProjectsExperience />
           <ContinuousLearning />
-          <ContactMe />
+          <ContactMe id="contact"/>
         </>
       )}
     </>

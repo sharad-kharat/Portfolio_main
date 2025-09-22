@@ -23,7 +23,7 @@ const Hero = () => {
         {/* Contact Info */}
         <div className="hero-info">
           <div className="info-box">
-            <FaMapMarkerAlt className="icon" />
+            <FaMapMarkerAlt color="#d7f179ff" className="icon" />
             <span>Pune, India</span>
           </div>
           <div className="info-box">
@@ -38,15 +38,19 @@ const Hero = () => {
 
         {/* Buttons */}
         <div className="hero-buttons">
-          <a href="https://linkedin.com" className="hero-btn linkedin">
-            <FaLinkedin /> LinkedIn
+          <a  href="https://www.linkedin.com/in/sharad-kharat-20a9a1220/" className="hero-btn linkedin">
+            <FaLinkedin  /> LinkedIn
           </a>
           <a href="https://github.com" className="hero-btn github">
             <FaGithub /> GitHub
           </a>
-          <a href="#contact" className="hero-btn contact">
-            <FaEnvelope /> Contact Me
-          </a>
+          <button 
+  onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}
+  className="hero-btn contact"
+>
+  <FaEnvelope /> Contact Me
+</button>
+
         </div>
       </div>
     </section>

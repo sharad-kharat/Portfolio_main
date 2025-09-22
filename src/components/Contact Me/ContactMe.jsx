@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactMe.css';
 
-const ContactMe = () => {
+const ContactMe = ({id}) => {
   const form = useRef();
   const [success, setSuccess] = useState(false);
 
@@ -28,14 +28,20 @@ const ContactMe = () => {
   return (
     <>
       <h3 className='contact-title'>Contact Me</h3>
-      <section className="contact-section">
+      <section id={id} className="contact-section">
         <div className="contact-info">
           <h3>Contact Information</h3>
           <p><strong>Email:</strong> <a href="mailto:sharadkharat214@gmail.com">sharadkharat214@gmail.com</a></p>
-          <p><strong>Phone:</strong> <a href="tel:+919642926755">+91 9642926755</a></p>
-          <p><strong>Location:</strong> Hyderabad, India</p>
+          <p><strong>Phone:</strong> <a href="tel:+919067785123">+91 9067785123</a></p>
+          <p><strong>Location:</strong> Pune, India</p>
           <div className="social-links">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a 
+  href="https://www.linkedin.com/in/sharad-kharat-20a9a1220/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  LinkedIn
+</a>
             <a href="https://github.com/sharad-kharat" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
